@@ -15,7 +15,7 @@ browswer.text_field(:name => "username").set "#{username}"
 browswer.text_field(:name => "password").set "#{password}"
 
 # Click Login button
-browser.button(:class => '_qv64e _gexxb _4tgw8 _njrw0').Click
+browser.button(:class => '_qv64e _gexxb _4tgw8 _njrw0').click
 
 
 sleep(360)
